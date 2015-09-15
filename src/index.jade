@@ -1,0 +1,163 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title PHP Docker Boilerplate
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section
+        h1 PHP<br>Docker<br>Boilerplate
+        h2 mit Vagrant Docker VM
+
+      section
+        h2 Markus Blaschke
+        p staatl. geprüfter Techniker
+        p Zend Certified PHP5 Engineer
+        p ... über 10 Jahre Entwickler (PHP und Web)
+        p ... über 10 Jahre Admin (Gentoo, Ubuntu)
+
+      section
+        h2 WebDevOps
+        div(style="position: absolute; top: 50px; right: 0px; left: 0px; margin: auto; opacity: 0.2;")
+          img(src="images/devops.png")
+        p
+          b Team
+        p Markus Blaschke & Florian Tatzel
+        p
+          b Ziel
+        p Vereinfachung der Entwicklungs- <br>und Produktionsumgebung
+        p
+          b Hobby :-)
+
+      section
+        h2 Heutige Entwicklungsumgebung?
+
+      section
+        h2 Produktivsystem?!
+        img(src="images/production.gif")
+
+      section
+        h2 Shared development server?!
+        img(src="images/warehouse-collapse.gif")
+
+      section
+        h2 XAMP?!
+        img(src="images/cablecloset_2.jpg")
+
+      section
+        h2 Vagrant und Docker
+        img(src="images/docker-box.jpg", height="80%")
+
+      section
+        h2.bullet Lokale VM - Vorteile
+        ul
+          li Unabhänging
+          li Mobil
+          li Performance
+          li Debugging
+          li Wiederherstellbar
+
+      section
+        h2.bullet Lokale VM - Nachteile
+        ul
+          li Ressourcen-Hungrig
+          li Hohe Erstellungszeit
+          li Langsamer Projektwechsel
+          li Wartung
+
+      section
+        h2.bullet Docker Container
+        ul
+          li Leichtgewicht
+          li Sandbox
+          li Anpassbar
+          li Komplexe Dienste
+
+      section
+        img(src="images/docker-vm-container.png", width="100%")
+
+      section
+        h2 PHP Docker Boilerplate
+        h3 mit Vagrant Docker VM
+
+      section
+        h2.bullet Vagrant Docker VM
+        ul
+          li Ubuntu Linux 14.04 LTS
+          li Ansible Provisioning
+          li Docker Engine
+          li Mail Sandbox
+          li Samba
+          li Anpassbar
+          li btrfs support
+          li für VirtualBox, VMware, Parallels
+          li für Linux, MacOS und Windows
+
+      section
+        h2.bullet PHP Docker Boilerplate
+        ul
+          li Apache oder Nginx
+          li PHP (5.3, 5.4, 5.5, 5.6, HHVM)
+          li MySQL, MariaDB und PerconaDB
+          li Solr
+          li FTP
+          li Elasticsearch
+          li ...
+
+      section
+        p PHP Boilerplate Layout
+        img(src="images/boilerplate-layout.png", width="100%")
+
+      section
+        p Apache access log
+        img(src="images/docker-access-log.png", width="100%")
+
+      section
+        p PHP error log
+        img(src="images/docker-php-errorlog.png", width="100%")
+
+      section
+        p PHP slowlog log
+        img(src="images/docker-php-slowlog.png", width="100%")
+
+      section
+        p PHP Boilerplate Fileystem
+        img(src="images/boilerplate-filesystem.png", height="80%")
+
+      section
+        p PHP Boilerplate docker-compose.yml
+        img(src="images/boilerplate-docker-compose.png", height="80%")
+
+      section
+        p PHP Boilerplate docker-env.yml
+        img(src="images/boilerplate-docker-env.png", height="80%")
+
+      section
+        h2 Get it
+        p
+        p
+        p(style="margin-left: 50px; margin-right: 50px;") Vagrant Docker VM:<br>
+          a(href='https://github.com/webdevops/vagrant-development') https://github.com/webdevops/vagrant-development
+        p
+        p
+        p(style="margin-left: 50px; margin-right: 50px;") PHP Docker Boilerplate:<br>
+          a(href='https://github.com/webdevops/php-docker-boilerplate') https://github.com/webdevops/php-docker-boilerplate
+
+      section
+        h2 Vielen Dank
+        br
+        p
+          b - WebDevOps -
+        br
+        p Markus Blaschke
+          a(href='http://twitter.com/MarkusBlaschke')  -@MarkusBlaschke
+        p Florian Tatzel
+          a(href='http://twitter.com/PanadeEdu')  -@PanadeEdu
+
+    script(src='build/build.js')

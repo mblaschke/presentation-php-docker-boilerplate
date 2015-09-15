@@ -1,0 +1,7 @@
+{
+  "name": "presentation-php-docker-boilerplate",
+  "version": "1.0.0",
+  "dependencies": {
+    "prism": "gh-pages"
+  }
+}
